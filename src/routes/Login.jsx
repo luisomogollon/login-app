@@ -13,7 +13,7 @@ const Login = () => {
               <div class="md:p-12 md:mx-6">
                 <div class="text-center">
                  
-                  <h4 class="text-xl font-semibold mt-1 mb-12 pb-1"> Art</h4>
+                <h3 class="mb-20 text-2xl font-medium text-center">Login to your Account</h3>
                 </div>
                 <form>
                   
@@ -44,7 +44,7 @@ const Login = () => {
                    
                     <a class="text-gray-500" href="#!">Forgot password?</a>
                   </div>
-                  <div class="flex items-center justify-between pb-6">
+                  <div class="flex justify-center pb-6">
                     <p class="mb-0 mr-2">Don't have an account?</p>
                     
                   </div>
