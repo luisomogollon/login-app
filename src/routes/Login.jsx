@@ -3,7 +3,7 @@ import React from 'react';
 const Login = () => {
     return (
         <div>
-            login
+            <section class="h-full gradient-form bg-gray-50 md:h-screen"> </section>
         </div>
     );
 };
