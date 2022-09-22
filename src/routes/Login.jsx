@@ -4,8 +4,8 @@ import React from "react";
 const Login = () => {
   return (
     <section className="w-full  bg-white">
-      <body >
-        <div className="flex items-center  bg-gray-100">
+      <body className="">
+        <div className="flex items-center min-w-screen min-h-screen bg-gray-100">
           <div className="flex-1 h-full max-w-4xl mx-auto bg-white rounded-lg shadow-xl">
             <div className="flex flex-col md:flex-row">
               <div className="h-60 md:h-auto md:w-1/2">
@@ -15,8 +15,12 @@ const Login = () => {
                       L´ART
                     </h2>
 
-                    <p className=" text-4xl text-center font-semibold text-gray-700 italic sm:text-5xl sm:tracking-tight lg:text-3xl">
+                    <p className=" text-2xl text-center font-semibold text-gray-700 italic sm:text-1xl sm:tracking-tight lg:text-1xl">
                       New Here?
+                    </p>
+
+                    <p className=" text-1xl pt-2 text-center font-semibold text-gray-700 italic sm:text-1xl sm:tracking-tight lg:text-1xl">
+                      Sign up and discover a great amout of new oppurtinities!
                     </p>
 
                     <div className="justify-center flex  ">
