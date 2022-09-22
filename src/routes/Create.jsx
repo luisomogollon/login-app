@@ -2,17 +2,31 @@ import React from 'react';
 
 const Create = () => {
     return (
-        <form class="w-full max-w-sm">
-        <div class="flex items-center border-b border-teal-500 py-2">
-          <input class="appearance-none bg-transparent border-none w-full text-gray-700 mr-3 py-1 px-2 leading-tight focus:outline-none" type="text" placeholder="Jane Doe" aria-label="Full name"/>
-          <button class="flex-shrink-0 bg-teal-500 hover:bg-teal-700 border-teal-500 hover:border-teal-700 text-sm border-4 text-white py-1 px-2 rounded" type="button">
-            Sign Up
-          </button>
-          <button class="flex-shrink-0 border-transparent border-4 text-teal-500 hover:text-teal-800 text-sm py-1 px-2 rounded" type="button">
-            Cancel
-          </button>
+        <div class="flex justify-center items-center h-screen w-full bg-gray-100">
+        <div class="w-2/5 bg-white rounded shadow-2xl p-2 m-4">
+            <h1 class="block w-full text-center text-gray-800 text-2xl font-bold mb-6">Register</h1>
+            <form action="/" method="post">
+                <div class="flex flex-col mb-4">
+                    <label class="mb-2 font-bold text-lg text-gray-900" for="first_name">First Name</label>
+                    <input class="border py-2 px-3 text-grey-800" type="text" name="first_name" id="first_name"/>
+                </div>
+                <div class="flex flex-col mb-4">
+                    <label class="mb-2 font-bold text-lg text-gray-900" for="last_name">Last Name</label>
+                    <input class="border py-2 px-3 text-grey-800" type="text" name="last_name" id="last_name"/>
+                </div>
+                <div class="flex flex-col mb-4">
+                    <label class="mb-2 font-bold text-lg text-gray-900" for="email">Email</label>
+                    <input class="border py-2 px-3 text-grey-800" type="email" name="email" id="email"/>
+                </div>
+                <div class="flex flex-col mb-4">
+                    <label class="mb-2 font-bold text-lg text-gray-900" for="password">Password</label>
+                    <input class="border py-2 px-3 text-grey-800" type="password" name="password" id="password"/>
+                </div>
+                <button class="block bg-indigo-500 hover:bg-indigo-600 text-white uppercase text-lg mx-auto p-4 rounded" type="submit">Create Account</button>
+            </form>
+            <a class="block w-full text-center no-underline mt-4 text-sm text-gray-700 hover:text-gray-900" href="/login">Already have an account?</a>
         </div>
-      </form>
+    </div>
     );
 };
 
