@@ -1,5 +1,6 @@
 import React from "react";
 import { FcGoogle } from "react-icons/fc";
+import { Link } from "react-router-dom";
 
 const Login = () => {
   return (
@@ -25,7 +26,8 @@ const Login = () => {
 
                     <div className="justify-center flex  ">
                       <button className="bg-indigo-500 flex justify-center   hover:bg-indigo-700 text-white  font-semibold mt-9 py-1 px-4 rounded-full">
-                        Sing up
+                       
+												<Link to="/Create"> Sing up </Link>
                       </button>
                     </div>
                   </div>
