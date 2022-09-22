@@ -39,7 +39,7 @@ const Create = () => {
          
 
           <div className="flex flex-col mb-3 mt-5">
-            <label className="mb-2  text-lg text-gray-900" for="first_name">
+            <label className="mb-2  text-lg text-gray-900" htmlFor="first_name">
               UserName or Email
             </label>
             <input
@@ -52,7 +52,7 @@ const Create = () => {
           </div>
 
           <div className="flex flex-col mb-4">
-            <label className="mb-2 text-lg text-gray-900" for="last_name">
+            <label className="mb-2 text-lg text-gray-900" htmlFor="last_name">
               Email
             </label>
             <input
@@ -66,7 +66,7 @@ const Create = () => {
           </div>
 
           <div className="flex flex-col mb-4">
-            <label className="mb-2  text-lg text-gray-900" for="email">
+            <label className="mb-2  text-lg text-gray-900" htmlFor="email">
               New Password
             </label>
             <input
@@ -79,7 +79,7 @@ const Create = () => {
           </div>
 
           <div className="flex flex-col mb-4">
-            <label className="mb-2  text-lg text-gray-900" for="password">
+            <label className="mb-2  text-lg text-gray-900" htmlFor="password">
               New Password (Repeat)
             </label>
             <input
