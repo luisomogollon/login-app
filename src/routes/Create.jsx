@@ -35,7 +35,7 @@ const Create = () => {
           </button>
         </div>
 
-        <form action="/" method="post">
+        <form>
          
 
           <div className="flex flex-col mb-3 mt-5">
@@ -92,19 +92,20 @@ const Create = () => {
           </div>
 
           <button
-            className="block bg-indigo-400 hover:bg-indigo-600 text-white uppercase text-lg mx-auto mt-10 p-3 rounded"
-            type="submit"
+            className="block bg-indigo-600 hover:bg-indigo-700 text-white  text-lg mx-auto mt-12 p-2  rounded"
+            
+          
           >
             Create Account
           </button>
 
         </form>
-        <a
-          className="block w-full text-center no-underline mt-4 text-sm text-gray-700 hover:text-gray-900"
-          href="/login"
+        <span
+          className="block w-full text-center  no-underline mt-4 text-sm text-gray-700 hover:text-gray-900"
+          href="a"
         >
           Already have an account?
-        </a>
+        </span>
 
       </div>
     </div>

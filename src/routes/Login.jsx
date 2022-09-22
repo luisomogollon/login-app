@@ -5,7 +5,7 @@ import { Link } from "react-router-dom";
 const Login = () => {
   return (
     <section className="w-full  bg-white">
-      <body className="">
+      
         <div className="flex items-center min-w-screen min-h-screen bg-gray-100">
           <div className="flex-1 h-full max-w-4xl mx-auto bg-white rounded-lg shadow-xl">
             <div className="flex flex-col md:flex-row">
@@ -13,7 +13,7 @@ const Login = () => {
                 <section className="h-auto bg-white">
                   <div className="max-w-7xl mx-auto py-1 px-10 sm:py-24 sm:px-6 lg:px-8 sm:text-center">
                     <h2 className="text-center text-1xl font-bold text-gray-900  tracking-wide uppercase">
-                      L´ART
+                      L'Art
                     </h2>
 
                     <p className=" italic text-3xl  text-center font-extrabold text-indigo-600  sm:text-1xl sm:tracking-tight lg:text-1xl">
@@ -43,9 +43,9 @@ const Login = () => {
                   </h1>
 									
                   <div className="justify-center flex flex-col space-y-2 ">
-                    <button class="bg-white px-2 py-2 font-semibold text-black inline-flex items-center space-x-2 rounded">
+                    <button className="bg-white px-2 py-2 font-semibold text-black inline-flex items-center space-x-2 rounded">
                       <svg
-                        class="w-5 h-5 fill-current"
+                        className="w-5 h-5 fill-current"
                         role="img"
                         xmlns="http://www.w3.org/2000/svg"
                         viewBox="0 0 15 15"
@@ -54,9 +54,9 @@ const Login = () => {
                       </svg>
                       <span>Login Using Google</span>
                     </button>
-                    <button class="bg-blue-500 px-2 py-2 font-semibold text-white inline-flex items-center space-x-2 rounded">
+                    <button className="bg-blue-500 px-2 py-2 font-semibold text-white inline-flex items-center space-x-2 rounded">
                       <svg
-                        class="w-5 h-5 fill-current"
+                        className="w-5 h-5 fill-current"
                         role="img"
                         xmlns="http://www.w3.org/2000/svg"
                         viewBox="0 0 24 24"
@@ -104,7 +104,7 @@ const Login = () => {
             </div>
           </div>
         </div>
-      </body>
+      
     </section>
   );
 };
