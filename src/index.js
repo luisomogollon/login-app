@@ -10,10 +10,10 @@ import { Layout } from "./Layout";
 
 const root = ReactDOM.createRoot(document.getElementById("root"));
 root.render(
- 
+  
     <BrowserRouter>
       <Routes>
-        <Route path="/" element={<Layout />}>
+        <Route path="/" element={<Login />}>
           <Route index element={<Login />} />
           <Route path="create" element={<Create />} />
         </Route>
