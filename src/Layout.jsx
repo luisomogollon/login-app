@@ -11,7 +11,7 @@ export function Layout() {
               className=" mr-1 flex items-center mb-5 font-medium text-gray-900 lg:w-auto lg:items-center lg:justify-center md:mb-0"
             >
               <span className="mx-auto text-xl font-black leading-none text-gray-900 select-none">
-                Luiso<span className="text-purple-600">.</span>
+              Art<span className="text-purple-600">.</span>
               </span>
             </button>
             <nav className="flex flex-wrap items-center mb-5 text-base md:mb-0 md:pl-8 md:ml-8 md:border-l md:border-gray-200">
@@ -53,10 +53,10 @@ export function Layout() {
             href="#_"
             className="text-xl font-black leading-none text-gray-900 select-none logo"
           >
-            Luiso<span className="text-indigo-600">.</span>
+            Art<span className="text-indigo-600">.</span>
           </button>
           <p className="mt-4 text-sm text-gray-500 sm:ml-4 sm:pl-4 sm:border-l sm:border-gray-200 sm:mt-0">
-            © 2021 Tails - Page built with tailwind Css
+            © 2022 Tails - Page built with tailwind Css
           </p>
           <span className="inline-flex justify-center mt-1 space-x-6 sm:ml-auto sm:mt-0 sm:justify-start">
             <span className="text-gray-400 hover:text-gray-500">

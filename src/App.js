@@ -16,7 +16,7 @@ function App() {
           rel="noopener noreferrer"
         >
    <h1 class="text-3xl font-bold underline">
-    Hello world!
+    Hello 
   </h1>
         </a>
       </header>

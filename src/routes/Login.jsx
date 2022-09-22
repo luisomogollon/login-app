@@ -12,7 +12,7 @@ const Login = () => {
               <div className="h-60 md:h-auto md:w-1/2">
                 <section className="h-auto bg-white">
                   <div className="max-w-7xl mx-auto py-1 px-10 sm:py-24 sm:px-6 lg:px-8 sm:text-center">
-                    <h2 className="text-center font-semibold text-gray-900  tracking-wide uppercase">
+                    <h2 className="text-center text-1xl font-bold text-gray-900  tracking-wide uppercase">
                       L´ART
                     </h2>
 
@@ -27,7 +27,7 @@ const Login = () => {
                     <div className="justify-center flex  ">
                       <button className="bg-indigo-500 flex justify-center   hover:bg-indigo-700 text-white  font-semibold mt-9 py-1 px-4 rounded-full">
                        
-												<Link to="/Create"> Sing up </Link>
+												<Link to="/Create"> Sing up  </Link>
                       </button>
                     </div>
                   </div>
@@ -41,6 +41,7 @@ const Login = () => {
                   <h1 className="mb-10 text-2xl font-bold text-center text-gray-800">
                     Login to Your Account
                   </h1>
+									
                   <div className="justify-center flex flex-col space-y-2 ">
                     <button class="bg-white px-2 py-2 font-semibold text-black inline-flex items-center space-x-2 rounded">
                       <svg
