@@ -9,29 +9,33 @@ const Login = () => {
           <div className="flex-1 h-full max-w-4xl mx-auto bg-white rounded-lg shadow-xl">
             <div className="flex flex-col md:flex-row">
               <div className="h-48 md:h-auto md:w-1/2">
+              
                 <section className="h-auto bg-white">
                   <div className="max-w-7xl mx-auto py-1 px-10 sm:py-24 sm:px-6 lg:px-8 sm:text-center">
                     <h2 className="text-center font-semibold text-indig-600 tracking-wide uppercase">
-                      subtitle text
+                      L´ART
                     </h2>
 
-                    <p className="mt-1 text-4xl text-center font-semibold text-gray-900 italic sm:text-5xl sm:tracking-tight lg:text-3xl">
+                    <p className=" text-4xl text-center font-semibold text-gray-700 italic sm:text-5xl sm:tracking-tight lg:text-3xl">
                       New Here?
                     </p>
 
-                    <button className="bg-blue-500  hover:bg-blue-700 text-white font-semibold mt-9 py-1 px-2 rounded">
-                      {" "}
-                      Sing up
-                    </button>
+                    <div className="justify-center flex  ">
+                      <button className="bg-blue-500 flex justify-center hover:bg-blue-700 text-white  font-semibold mt-9 py-1 px-2 rounded">
+                        Sing up
+                      </button>
+                    </div>
                   </div>
                 </section>
+
               </div>
-              <div className="flex items-center bg-indigo-500 justify-center p-6 sm:p-12 md:w-1/2">
+
+              <div className="flex items-center bg-indigo-400 justify-center p-6 sm:p-12 md:w-1/2">
                 <div className="w-full">
                   <div className="flex justify-center">
                     <svg
                       xmlns="http://www.w3.org/2000/svg"
-                      className="w-20 h-20 text-gray-700"
+                      className="w-20 h-20 text-gray-800"
                       fill="none"
                       viewBox="0 0 17 24"
                       stroke="currentColor"
@@ -39,17 +43,17 @@ const Login = () => {
                       <GiAndroidMask />
                     </svg>
                   </div>
-                  <h1 className="mb-4 text-2xl font-bold text-center text-gray-700">
+
+                  <h1 className="mb-4 text-2xl font-bold text-center text-gray-800">
                     Login to Your Account
                   </h1>
 
-                  <div class="flex flex-row items-center justify-center lg:justify-start">
-                    <p class="text-lg mb-0 mr-4">Sign in with</p>
+                  <div class="flex flex-row items-center justify-center lg:justify-center">
                     <button
                       type="button"
                       data-mdb-ripple="true"
                       data-mdb-ripple-color="light"
-                      class="inline-block p-3 bg-blue-600 text-white font-medium text-xs leading-tight uppercase rounded-full shadow-md hover:bg-blue-700 hover:shadow-lg focus:bg-blue-700 focus:shadow-lg focus:outline-none focus:ring-0 active:bg-blue-800 active:shadow-lg transition duration-150 ease-in-out mx-1"
+                      class="inline-block p-3 bg-slate-600 text-white font-medium text-xs leading-tight uppercase rounded-full shadow-md hover:bg-blue-700 hover:shadow-lg focus:bg-blue-700 focus:shadow-lg focus:outline-none focus:ring-0 active:bg-blue-800 active:shadow-lg transition duration-150 ease-in-out mx-1"
                     >
                       <svg
                         xmlns="http://www.w3.org/2000/svg"
@@ -67,7 +71,7 @@ const Login = () => {
                       type="button"
                       data-mdb-ripple="true"
                       data-mdb-ripple-color="light"
-                      class="inline-block p-3 bg-blue-600 text-white font-medium text-xs leading-tight uppercase rounded-full shadow-md hover:bg-blue-700 hover:shadow-lg focus:bg-blue-700 focus:shadow-lg focus:outline-none focus:ring-0 active:bg-blue-800 active:shadow-lg transition duration-150 ease-in-out mx-1"
+                      class="inline-block p-3 bg-slate-600 text-white font-medium text-xs leading-tight uppercase rounded-full shadow-md hover:bg-blue-700 hover:shadow-lg focus:bg-blue-700 focus:shadow-lg focus:outline-none focus:ring-0 active:bg-blue-800 active:shadow-lg transition duration-150 ease-in-out mx-1"
                     >
                       <svg
                         xmlns="http://www.w3.org/2000/svg"
@@ -85,7 +89,7 @@ const Login = () => {
                       type="button"
                       data-mdb-ripple="true"
                       data-mdb-ripple-color="light"
-                      class="inline-block p-3 bg-blue-600 text-white font-medium text-xs leading-tight uppercase rounded-full shadow-md hover:bg-blue-700 hover:shadow-lg focus:bg-blue-700 focus:shadow-lg focus:outline-none focus:ring-0 active:bg-blue-800 active:shadow-lg transition duration-150 ease-in-out mx-1"
+                      class="inline-block p-3 bg-slate-600 text-white font-medium text-xs leading-tight uppercase rounded-full shadow-md hover:bg-blue-700 hover:shadow-lg focus:bg-blue-700 focus:shadow-lg focus:outline-none focus:ring-0 active:bg-blue-800 active:shadow-lg transition duration-150 ease-in-out mx-1"
                     >
                       <svg
                         xmlns="http://www.w3.org/2000/svg"
@@ -99,6 +103,7 @@ const Login = () => {
                       </svg>
                     </button>
                   </div>
+
                   <div className="mt-4">
                     <label className="block text-sm">Email</label>
                     <input
@@ -127,7 +132,7 @@ const Login = () => {
                   <div className="mt-4 text-center">
                     <p className="text-sm">
                       Forgot your password ?{" "}
-                      <a href="#" className="text-blue-600 hover:underline">
+                      <a href="." className="text-blue-600 hover:underline">
                         Here.
                       </a>
                     </p>
