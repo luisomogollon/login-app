@@ -3,46 +3,74 @@ import React from "react";
 const Login = () => {
   return (
     <section class="w-full bg-white">
-      <div class="mx-auto max-w-7xl">
-        <div class="flex flex-col lg:flex-row">
-          <div class="relative w-full bg-cover lg:w-6/12 xl:w-7/12 bg-gradient-to-r from-white via-white to-gray-100">
-            
-          </div>
+      <body>
+        <div class="flex items-center min-h-screen bg-gray-50">
+          <div class="flex-1 h-full max-w-4xl mx-auto bg-white rounded-lg shadow-xl">
+            <div class="flex flex-col md:flex-row">
+              <div class="h-32 md:h-auto md:w-1/2"></div>
+              <div class="flex items-center justify-center p-6 sm:p-12 md:w-1/2">
+                <div class="w-full">
+                  <div class="flex justify-center">
+                    <svg
+                      xmlns="http://www.w3.org/2000/svg"
+                      class="w-20 h-20 text-indigo-600"
+                      fill="none"
+                      viewBox="0 0 24 24"
+                      stroke="currentColor"
+                    >
+                      <path d="M12 14l9-5-9-5-9 5 9 5z" />
+                      <path d="M12 14l6.16-3.422a12.083 12.083 0 01.665 6.479A11.952 11.952 0 0012 20.055a11.952 11.952 0 00-6.824-2.998 12.078 12.078 0 01.665-6.479L12 14z" />
+                      <path
+                        stroke-linecap="round"
+                        stroke-linejoin="round"
+                        stroke-width="2"
+                        d="M12 14l9-5-9-5-9 5 9 5zm0 0l6.16-3.422a12.083 12.083 0 01.665 6.479A11.952 11.952 0 0012 20.055a11.952 11.952 0 00-6.824-2.998 12.078 12.078 0 01.665-6.479L12 14zm-4 6v-7.5l4-2.222"
+                      />
+                    </svg>
+                  </div>
+                  <h1 class="mb-4 text-2xl font-bold text-center text-gray-700">
+                    Login to Your Account
+                  </h1>
 
-          <div class="w-full bg-white lg:w-7/12 xl:w-5/12">
-            <div class="flex flex-col items-start justify-start w-full h-full p-10 lg:p-16 xl:p-24">
-              <h4 class="w-full text-3xl font-bold">Login to your Accout</h4>
-              <p class="text-lg text-gray-500">Login using social networks</p>
-              <div class="relative w-full mt-10 space-y-8">
-                <div class="relative">
-                  <label class="font-medium text-gray-900">Email</label>
-                  <input
-                    type="text"
-                    class="block w-full px-4 py-4 mt-2 text-xl placeholder-gray-400 bg-gray-200 rounded-lg focus:outline-none focus:ring-4 focus:ring-blue-600 focus:ring-opacity-50"
-                    placeholder="Enter Your Email Address"
-                  />
-                </div>
-                <div class="relative">
-                  <label class="font-medium text-gray-900">Password</label>
-                  <input
-                    type="password"
-                    class="block w-full px-4 py-4 mt-2 text-xl placeholder-gray-400 bg-gray-200 rounded-lg focus:outline-none focus:ring-4 focus:ring-blue-600 focus:ring-opacity-50"
-                    placeholder="Password"
-                  />
-                </div>
-                <div class="relative">
-                  <a
-                    href="#_"
-                    class="inline-block w-full px-5 py-4 text-lg font-medium text-center text-white transition duration-200 bg-blue-600 rounded-lg hover:bg-blue-700 ease"
+                  <div className="text-center">Redes Sociales Aqui</div>
+                  <div class="mt-4">
+                    <label class="block text-sm">Email</label>
+                    <input
+                      type="email"
+                      class="w-full px-4 py-2 text-sm border rounded-md focus:border-blue-400 focus:outline-none focus:ring-1 focus:ring-blue-600"
+                      placeholder="Email Address"
+                    />
+                  </div>
+                  <div>
+                    <label class="block mt-4 text-sm">Password</label>
+                    <input
+                      class="w-full px-4 py-2 text-sm border rounded-md focus:border-blue-400 focus:outline-none focus:ring-1 focus:ring-blue-600"
+                      placeholder="Password"
+                      type="password"
+                    />
+                  </div>
+                  <button
+                    class="block w-full px-4 py-2 mt-4 text-sm font-medium leading-5 text-center text-white transition-colors duration-150 bg-blue-600 border border-transparent rounded-lg active:bg-blue-600 hover:bg-blue-700 focus:outline-none focus:shadow-outline-blue"
+                    href="#"
                   >
-                    Create Account
-                  </a>
+                    Sign up
+                  </button>
+
+                  <div class="mt-4 text-center">
+                    <p class="text-sm">
+                      Don't have an account yet?{" "}
+                      <a href="#" class="text-blue-600 hover:underline">
+                        {" "}
+                        Sign up.
+                      </a>
+                    </p>
+                  </div>
                 </div>
               </div>
             </div>
           </div>
         </div>
-      </div>
+      </body>
     </section>
   );
 };
