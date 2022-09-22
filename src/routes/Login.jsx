@@ -1,4 +1,5 @@
 import React from "react";
+import { GiAndroidMask } from "react-icons/gi";
 
 const Login = () => {
   return (
@@ -13,8 +14,8 @@ const Login = () => {
 <section class="h-auto bg-white">
     <div class="max-w-7xl mx-auto py-1 px-10 sm:py-24 sm:px-6 lg:px-8 sm:text-center">
         <h2 class="text-center font-semibold text-indig-600 tracking-wide uppercase">subtitle text</h2>
-        <p class="mt-1 text-4xl text-center font-extrabold text-gray-900 italic sm:text-5xl sm:tracking-tight lg:text-3xl">New Here?</p>
-        <button class="bg-blue-500  hover:bg-blue-700 text-white font-bold mt-10 py-1 px-2 rounded"> Button</button>
+        <p class="mt-1 text-4xl text-center font-semibold text-gray-900 italic sm:text-5xl sm:tracking-tight lg:text-3xl">New Here?</p>
+        <button class="bg-blue-500  hover:bg-blue-700 text-white font-semibold mt-9 py-1 px-2 rounded"> Sing up</button>
     </div>
 </section>
 
@@ -26,17 +27,10 @@ const Login = () => {
                       xmlns="http://www.w3.org/2000/svg"
                       class="w-20 h-20 text-gray-700"
                       fill="none"
-                      viewBox="0 0 24 24"
+                      viewBox="0 0 17 24"
                       stroke="currentColor"
                     >
-                      <path d="M12 14l9-5-9-5-9 5 9 5z" />
-                      <path d="M12 14l6.16-3.422a12.083 12.083 0 01.665 6.479A11.952 11.952 0 0012 20.055a11.952 11.952 0 00-6.824-2.998 12.078 12.078 0 01.665-6.479L12 14z" />
-                      <path
-                        stroke-linecap="round"
-                        stroke-linejoin="round"
-                        stroke-width="2"
-                        d="M12 14l9-5-9-5-9 5 9 5zm0 0l6.16-3.422a12.083 12.083 0 01.665 6.479A11.952 11.952 0 0012 20.055a11.952 11.952 0 00-6.824-2.998 12.078 12.078 0 01.665-6.479L12 14zm-4 6v-7.5l4-2.222"
-                      />
+                      <GiAndroidMask/>
                     </svg>
                   </div>
                   <h1 class="mb-4 text-2xl font-bold text-center text-gray-700">
@@ -64,12 +58,12 @@ const Login = () => {
                     class="block w-full px-4 py-2 mt-4 text-sm font-medium leading-5 text-center text-white transition-colors duration-150 bg-blue-600 border border-transparent rounded-lg active:bg-blue-600 hover:bg-blue-700 focus:outline-none focus:shadow-outline-blue"
                     href="#"
                   >
-                    Sign up
+                    Sign in
                   </button>
 
                   <div class="mt-4 text-center">
                     <p class="text-sm">
-                      Don't have an account yet?{" "}
+                    You forget your password?{" "}
                       <a href="#" class="text-blue-600 hover:underline">
                         {" "}
                         Sign up.
