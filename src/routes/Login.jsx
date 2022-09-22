@@ -11,15 +11,15 @@ const Login = () => {
               <div className="h-60 md:h-auto md:w-1/2">
                 <section className="h-auto bg-white">
                   <div className="max-w-7xl mx-auto py-1 px-10 sm:py-24 sm:px-6 lg:px-8 sm:text-center">
-                    <h2 className="text-center font-semibold text-indig-600 tracking-wide uppercase">
+                    <h2 className="text-center font-semibold text-indigo-500  tracking-wide uppercase">
                       L´ART
                     </h2>
 
-                    <p className=" text-2xl text-center font-semibold text-gray-700 italic sm:text-1xl sm:tracking-tight lg:text-1xl">
-                      New Here?
+                    <p className=" italic text-2xl  text-center font-bold text-gray-700  sm:text-1xl sm:tracking-tight lg:text-1xl">
+                      New Here ?
                     </p>
 
-                    <p className=" text-1xl pt-2 text-center font-semibold text-gray-700 italic sm:text-1xl sm:tracking-tight lg:text-1xl">
+                    <p className=" text-sm pt-6 text-center font-mediun text-gray-700 italic sm:text-1xl sm:tracking-tight lg:text-1xl">
                       Sign up and discover a great amout of new oppurtinities!
                     </p>
 
