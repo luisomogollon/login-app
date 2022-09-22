@@ -15,11 +15,11 @@ const Login = () => {
                       L´ART
                     </h2>
 
-                    <p className=" italic text-2xl  text-center font-bold text-gray-700  sm:text-1xl sm:tracking-tight lg:text-1xl">
+                    <p className=" italic text-3xl  text-center font-extrabold text-gray-900  sm:text-1xl sm:tracking-tight lg:text-1xl">
                       New Here ?
                     </p>
 
-                    <p className=" text-sm pt-6 text-center font-mediun text-gray-700 italic sm:text-1xl sm:tracking-tight lg:text-1xl">
+                    <p className=" text-sm pt-6 text-center font-semibold text-gray-600  sm:text-1xl sm:tracking-tight lg:text-1xl">
                       Sign up and discover a great amout of new oppurtinities!
                     </p>
 
