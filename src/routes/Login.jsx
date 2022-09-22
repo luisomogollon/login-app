@@ -8,7 +8,7 @@ const Login = () => {
         <div className="flex items-center min-h-screen bg-gray-100">
           <div className="flex-1 h-full max-w-4xl mx-auto bg-white rounded-lg shadow-xl">
             <div className="flex flex-col md:flex-row">
-              <div className="h-48 md:h-auto md:w-1/2">
+              <div className="h-60 md:h-auto md:w-1/2">
 
                 <section className="h-auto bg-white">
                   <div className="max-w-7xl mx-auto py-1 px-10 sm:py-24 sm:px-6 lg:px-8 sm:text-center">
@@ -30,9 +30,16 @@ const Login = () => {
 
               </div>
 
+              
+
               <div className="flex items-center bg-indigo-500 justify-center p-6 sm:p-12 md:w-1/2">
+              
                 <div className="w-full">
+                
                   <div className="flex justify-center">
+                  <h1 className="mb-4 text-2xl font-bold text-center text-gray-800">
+                    Login to Your Account
+                  </h1>
                     <svg
                       xmlns="http://www.w3.org/2000/svg"
                       className="w-20 h-20 text-gray-800"
@@ -40,13 +47,11 @@ const Login = () => {
                       viewBox="0 0 17 24"
                       stroke="currentColor"
                     >
-                      <GiAndroidMask />
+                      
                     </svg>
                   </div>
-
-                  <h1 className="mb-4 text-2xl font-bold text-center text-gray-800">
-                    Login to Your Account
-                  </h1>
+                  
+                  
 
                   <div class="flex flex-row items-center justify-center lg:justify-center">
                     <button
