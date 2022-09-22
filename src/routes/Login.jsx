@@ -2,18 +2,29 @@ import React from "react";
 
 const Login = () => {
   return (
-    <section class="w-full bg-white">
+    <section class="w-full  bg-white">
       <body>
-        <div class="flex items-center min-h-screen bg-gray-50">
+        <div class="flex items-center min-h-screen bg-gray-100">
           <div class="flex-1 h-full max-w-4xl mx-auto bg-white rounded-lg shadow-xl">
             <div class="flex flex-col md:flex-row">
-              <div class="h-32 md:h-auto md:w-1/2"></div>
-              <div class="flex items-center justify-center p-6 sm:p-12 md:w-1/2">
+              <div class="h-48 md:h-auto md:w-1/2">
+                
+
+<section class="h-auto bg-white">
+    <div class="max-w-7xl mx-auto py-1 px-10 sm:py-24 sm:px-6 lg:px-8 sm:text-center">
+        <h2 class="text-center font-semibold text-indig-600 tracking-wide uppercase">subtitle text</h2>
+        <p class="mt-1 text-4xl text-center font-extrabold text-gray-900 italic sm:text-5xl sm:tracking-tight lg:text-3xl">New Here?</p>
+        <button class="bg-blue-500  hover:bg-blue-700 text-white font-bold mt-10 py-1 px-2 rounded"> Button</button>
+    </div>
+</section>
+
+              </div>
+              <div class="flex items-center bg-indigo-500 justify-center p-6 sm:p-12 md:w-1/2">
                 <div class="w-full">
                   <div class="flex justify-center">
                     <svg
                       xmlns="http://www.w3.org/2000/svg"
-                      class="w-20 h-20 text-indigo-600"
+                      class="w-20 h-20 text-gray-700"
                       fill="none"
                       viewBox="0 0 24 24"
                       stroke="currentColor"
