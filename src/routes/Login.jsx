@@ -11,20 +11,20 @@ const Login = () => {
               <div className="h-60 md:h-auto md:w-1/2">
                 <section className="h-auto bg-white">
                   <div className="max-w-7xl mx-auto py-1 px-10 sm:py-24 sm:px-6 lg:px-8 sm:text-center">
-                    <h2 className="text-center font-semibold text-indigo-500  tracking-wide uppercase">
+                    <h2 className="text-center font-semibold text-gray-900  tracking-wide uppercase">
                       L´ART
                     </h2>
 
-                    <p className=" italic text-3xl  text-center font-extrabold text-gray-900  sm:text-1xl sm:tracking-tight lg:text-1xl">
+                    <p className=" italic text-3xl  text-center font-extrabold text-indigo-600  sm:text-1xl sm:tracking-tight lg:text-1xl">
                       New Here ?
                     </p>
 
-                    <p className=" text-sm pt-6 text-center font-semibold text-gray-600  sm:text-1xl sm:tracking-tight lg:text-1xl">
+                    <p className=" text-sm pt-6 text-center font-bold italic  text-gray-600  sm:text-1xl sm:tracking-tight lg:text-1xl">
                       Sign up and discover a great amout of new oppurtinities!
                     </p>
 
                     <div className="justify-center flex  ">
-                      <button className="bg-blue-500 flex justify-center hover:bg-blue-700 text-white  font-semibold mt-9 py-1 px-2 rounded">
+                      <button className="bg-indigo-500 flex justify-center   hover:bg-indigo-700 text-white  font-semibold mt-9 py-1 px-4 rounded-full">
                         Sing up
                       </button>
                     </div>
@@ -115,7 +115,7 @@ const Login = () => {
                   </div>
 
                   <button
-                    className="block w-full px-4 py-2 mt-4 text-sm font-medium leading-5 text-center text-white transition-colors duration-150 bg-blue-600 border border-transparent rounded-lg active:bg-blue-600 hover:bg-blue-700 focus:outline-none focus:shadow-outline-blue"
+                    className="block w-full px-4 py-2 mt-4 text-sm font-medium leading-5 text-center text-white transition-colors duration-150 bg-blue-700 border border-transparent rounded-lg active:bg-indigo-600 hover:bg-indigo-700 focus:outline-none focus:shadow-outline-blue"
                     href="#"
                   >
                     Sign in
